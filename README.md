@@ -60,7 +60,7 @@ task-scheduler/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-scheduler-priority-queue.git
+git clone https://github.com/keerat0025/TASK-SCHEDULER.git
 ```
 
 ### 2️⃣ Open the Project
