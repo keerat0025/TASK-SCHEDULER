@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Scheduler using Priority Queue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧩 Task Scheduler (Priority Queue - Min Heap)</h1>
+
+    <div class="form">
+      <input type="text" id="taskName" placeholder="Enter Task Name">
+      <input type="number" id="priority" placeholder="Priority (1 = High)">
+      <input type="number" id="duration" placeholder="Duration (mins)">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="buttons">
+      <button onclick="executeTask()">Execute Next Task</button>
+      <button onclick="showTasks()">Show All Tasks</button>
+    </div>
+
+    <div id="output" class="output"></div>
+
+    <h2>🧮 Heap Visualization</h2>
+    <div id="heapContainer" class="heap-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
